@@ -1,3 +1,5 @@
+## Closed rotation sequences
+
 The animations in the following papers and the related talks are generated using this repo.
 
 [DCG] Closed rotation sequences, SP Bhat and N Crasta, Discrete & Computational Geometry, volume 53, pages 366–396 (2015). https://doi.org/10.1007/s00454-014-9653-y
