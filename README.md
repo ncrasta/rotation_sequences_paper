@@ -12,3 +12,7 @@ The animations in the following papers and the related talks are generated using
 PS: In this code, we have used the following files
 1. https://www.mathworks.com/matlabcentral/fileexchange/25372-marrow3-m-easy-to-use-3d-arrow
 2. https://www.mathworks.com/matlabcentral/fileexchange/1805-rgb-m
+
+**Keywords**
+
+*Rotation sequences*, *Rodrigues–Hamilton theorem*, *Donkin’s theorem*, *Goodman–Robinson theorem*, *Ishlinkskii’s theorem*, *Codman’s paradox*
