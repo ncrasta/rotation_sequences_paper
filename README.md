@@ -19,6 +19,6 @@ In this code, we have used the following files
 1. https://www.mathworks.com/matlabcentral/fileexchange/25372-marrow3-m-easy-to-use-3d-arrow
 2. https://www.mathworks.com/matlabcentral/fileexchange/1805-rgb-m
 
-## Youtube video of Codman's paradox
+## Demo of Codman's paradox
 
 https://www.youtube.com/watch?v=htUKEcFIymg&ab_channel=SteveHaggerty
