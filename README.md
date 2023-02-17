@@ -13,6 +13,7 @@ The animations in the following papers and the related talks are generated using
 
 *Rotation sequences*, *Rodrigues–Hamilton theorem*, *Donkin’s theorem*, *Goodman–Robinson theorem*, *Ishlinkskii’s theorem*, *Codman’s paradox*, *Poinsot’s construction*, *Rolling cones*, *Rigid-body phase*, *Attitude reconstruction*
 
+Youtube video of the Codman's paradox https://www.youtube.com/watch?v=htUKEcFIymg&ab_channel=SteveHaggerty
 
 **PS**
 In this code, we have used the following files
