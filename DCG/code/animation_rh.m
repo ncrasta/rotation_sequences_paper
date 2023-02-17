@@ -218,7 +218,7 @@ for kk = 2:2:n_vert*n_time-1
     cycle_axis = cycle_axis1(cycle_axis1~=ind_seg);
     handleTitle = title('\textrm{\hspace{2in} \bf Visualization of a closed sequence of three rotations using rolling and sliding motions of cones}');
     text('Interpreter','latex','String','\textrm{Supplementary material to the article  ``Closed Rotation Sequences"  submitted to Discrete and Computational Geometry by}','Position',[-0.0,-0.0,-2.10] ,'FontSize',12);
-    text('Interpreter','latex','String','\textrm{Sanjay P. Bhat, Tata Consultancy Services Limited  (sanjay@atc.tcs.com) and Naveena Crasta, ISR, IST, Lisbon.}','Position',[-0.0,0.0,-2.20] ,'FontSize',12);
+    text('Interpreter','latex','String','\textrm{Sanjay P. Bhat and Naveena Crasta, ISR, IST, Lisbon.}','Position',[-0.0,0.0,-2.20] ,'FontSize',12);
     set(handleTitle,'interpreter','latex');
     set(handleTitle,'Position',[0.0,0.0,-2.00]);
     set(handleTitle,'FontSize',20);
