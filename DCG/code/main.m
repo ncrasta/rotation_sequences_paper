@@ -64,17 +64,17 @@ b3 = a3 + sin(phi1)*cross(a1,a3) + (1-cos(phi1))*cross(a1,cross(a1,a3));
 q1 = p1 + sin(phi1)*cross(a1,p1) + (1-cos(phi1))*cross(a1,cross(a1,p1));
 q2 = p2 + sin(phi1)*cross(a1,p2) + (1-cos(phi1))*cross(a1,cross(a1,p2));
 q3 = p3 + sin(phi1)*cross(a1,p3) + (1-cos(phi1))*cross(a1,cross(a1,p3));
-c1 = b1  + sin(phi2)*cross(b2,b1) + (1-cos(phi2))*cross(b2,cross(b2,b1));
+c1 = b1 + sin(phi2)*cross(b2,b1) + (1-cos(phi2))*cross(b2,cross(b2,b1));
 c2 = b2 + sin(phi2)*cross(b2,b2) + (1-cos(phi2))*cross(b2,cross(b2,b2));
 c3 = b3 + sin(phi2)*cross(b2,b3) + (1-cos(phi2))*cross(b2,cross(b2,b3));
-r1 = q1  + sin(phi2)*cross(b2,q1) + (1-cos(phi2))*cross(b2,cross(b2,q1));
+r1 = q1 + sin(phi2)*cross(b2,q1) + (1-cos(phi2))*cross(b2,cross(b2,q1));
 r2 = q2 + sin(phi2)*cross(b2,q2) + (1-cos(phi2))*cross(b2,cross(b2,q2));
 r3 = q3 + sin(phi2)*cross(b2,q3) + (1-cos(phi2))*cross(b2,cross(b2,q3));
-Rot_Axis =  [a1 b2 c3];
+Rot_Axis = [a1 b2 c3];
 % MC: Moving Cone
-vertMC(:,:,1)  =  [a1 a2 a3];
-vertMC(:,:,2)  =  [b1 b2 b3];
-vertMC(:,:,3)  = [c1 c2 c3];
+vertMC(:,:,1) =  [a1 a2 a3];
+vertMC(:,:,2) =  [b1 b2 b3];
+vertMC(:,:,3) = [c1 c2 c3];
 % MPC: Moving Polar Cone
 vertMPC(:,:,1) = [p1 p2 p3];
 vertMPC(:,:,2) = [q1 q2 q3];
