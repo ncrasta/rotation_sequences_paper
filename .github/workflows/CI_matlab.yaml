@@ -12,4 +12,4 @@ jobs:
       - name: Run build
         uses: matlab-actions/run-build@v1
         with:
-          tasks: DCG/code/main.m
+          command: DCG/code/main.m
