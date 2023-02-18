@@ -24,15 +24,15 @@ function [] = animation_rh(output_filename)
 
   fig = figure(1);  % create a new figure window
   set(gcf, 'color', rgb('Ivory'));  % SET THE BACKGROUND COLOR OF THE FIGURE
-  set(gca, 'color', rgb('Gray'));           % SET COLOR FOR THE AXIS
-  set(gcf,'Renderer','opengl');    % SELECT A RENDERING MODE **IMPORTANT***
-  %opengl('software');%
-  set(fig,'units','normalized','outerposition',[0 0 1 1]);
-  set(fig,'Position',[0  0   1   1]);  % SET THE POSITION OF THE FIGURE
-  xlabel('x','FontSize',20);
-  ylabel('y','FontSize',20);
-  zlabel('z','FontSize',20);
-  set(gca,'FontSize',20);
+  set(gca, 'color', rgb('Gray'));   % SET COLOR FOR THE AXIS
+  set(gcf,'Renderer', 'opengl');     % SELECT A RENDERING MODE **IMPORTANT***
+  opengl('software');
+  set(fig, 'units', 'normalized', 'outerposition', [0 0 1 1]);
+  set(fig, 'Position', [0  0   1   1]);  % SET THE POSITION OF THE FIGURE
+  xlabel('x', 'FontSize', 20);
+  ylabel('y', 'FontSize', 20);
+  zlabel('z', 'FontSize', 20);
+  set(gca, 'FontSize', 20);
   axis vis3d equal;
   vid = 1;
   if(vid == 1)
