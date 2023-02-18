@@ -2,5 +2,5 @@
 How to use:
 
 Run `code/main.m` file
-- `data_generation.m` create and save data in `FixedConeData.mat`, `MovingConeData.mat`, `PolarFixedConeData.mat`, and  `PolarMovingConeData.mat` files in the current directory
-- `animation_rh.m` loads all the `.mat` files from the current directory, creates the animation and save it with the filename `RH_TheoremCombined.mp4` in the current directory 
+- `code/utils/data_generation.m` create and save data in `core/data/FixedConeData.mat`, `core/data/MovingConeData.mat`, `core/data/PolarFixedConeData.mat`, and `core/data/PolarMovingConeData.mat` files in the current directory
+- `code/utils/animation_rh.m` loads all the `core/data/*.mat` files, creates the animation and saves `core/output/RH_TheoremCombined.mp4`
