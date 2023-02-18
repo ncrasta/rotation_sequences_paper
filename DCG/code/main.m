@@ -8,7 +8,7 @@
 %==============================================================================%
 addpath("utils")
 
-function [] = main(t_init, t_final, dt, direction, output_filename)
+function [] = rh(t_init, t_final, dt, direction, output_filename)
     if nargin < 1 || isempty(t_init)
         t_init = 0.0;
     end
@@ -19,17 +19,17 @@ function [] = main(t_init, t_final, dt, direction, output_filename)
         dt = 1e-3;
     end  
     if nargin < 4 || isempty(direction)
-        direction = 'counter-clockwise';
+        direction = 'ccw';
     end
     if nargin < 5 || isempty(output_filename)
         output_filename = 'RH_TheoremCombined.mp4';
     end
-    if direction == "counter-clockwise"
-        d = 1;  % CCW
+    if direction == "ccw"
+        d = 1;  % CCW (counter-clockwise)
     else
-        d = 0;  % CW
+        d = 0;  % CW (clockwise)
     end
-
+    fprintf('----------------------------------------\n');
     fprintf('Running with the following parameters:\n');
     fprintf('----------------------------------------\n');
     fprintf('Time interval   = [%d, %d]\n', t_init, t_final);
@@ -122,5 +122,5 @@ function [] = main(t_init, t_final, dt, direction, output_filename)
                     Z);
 
     %% ANIMATION
-    animation_rh(output_filename);
+    animation(output_filename);
 end
